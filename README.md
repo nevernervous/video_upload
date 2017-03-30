@@ -1,26 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Install ImageMagic
+Please check the following url and install imagemagic.
+https://github.com/thoughtbot/paperclip#image-processor
+    
+## Install dependencies
+    bundle install
+    
+## Setup Database
 
-* Ruby version
+ Open /config/database.yml and set username, password and database name
+ 
+## Setup s3
 
-* System dependencies
+ Open /config/s3.yml and set the s3 info.
+ 
+## Run server
+    rails db:migrate
+    rails server
 
-* Configuration
 
-* Database creation
+    
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* install imagemagick
